@@ -1,0 +1,33 @@
+.container h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: orangered;
+    font-size: 50px;
+}
+
+.container {
+    margin: 300px auto;
+    duration: 2s;
+}
+
+
+/*====================Start page CSS =======================*/
+
+.start-canvas {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+/* basic styles for black background and crosshair cursor */
+
+.start-canvas {
+    background: #000;
+    margin: 0;
+}
+
+canvas {
+    cursor: crosshair;
+    display: block;
+}
